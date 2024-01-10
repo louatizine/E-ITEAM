@@ -54,12 +54,12 @@ nav ul li a {
 nav ul li a:hover {
 	color: #fff;
 	border-radius: 5px;
-	background: #DF2771;
+	background: #85152E;
 }
 .active {
 	color: #fff;
 	border-radius: 5px;
-	background: #DF2771;
+	background: #85152E;
 }
 .srch {
 	padding: 2px 10px;
@@ -84,12 +84,11 @@ nav ul li a:hover {
 .get-started {
 	margin-left: 50px;
 	padding: 5px 20px;
-	border: 2px solid #DF2771;
+	border: 2px solid #85152E;
 	border-radius: 20px;
 	text-decoration: none;
-	
 	transition: .5s;
-	background-color: #DF2771;
+	background-color: #85152E;
 	color: #fff;
 }
 .get-started:hover {
@@ -189,7 +188,7 @@ a, button {
 }
 .side-menu ul li:hover a{
 	background: #fff;
-	color: #DF2771;
+	color: #85152E;
 }
 .side-menu ul li a{
 	color: #FFF;
@@ -282,7 +281,7 @@ a, button {
 }
 .smbox .data {
 	font-size: 80px;
-	color: #FA6146;	
+	color: #85152E;	
 }
 .smbox .det {
 	font-size: 20px;
@@ -364,7 +363,7 @@ a, button {
 	width: 250px;
 	padding: 28px;
 	border-radius: 10px;
-	border: 1px solid #FA4B37;
+	border: 1px solid #85152E;
 	font-size: 15px;
 	color: #272529;
 	font-family: cursive;
@@ -402,7 +401,7 @@ a, button {
 					0 0 10px rgba(0,0,0,0.3);
 }
 .card:nth-child(1){
-	border-top: 5px solid green;
+	border-top: 5px solid #85152E;
 }
 .card:nth-child(2){
 	border-top: 5px solid blue;
@@ -476,7 +475,7 @@ a, button {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("images/extra/b3.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("images/extra/Capture.PNG");
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -513,7 +512,7 @@ a, button {
 
 /*Contact Us Section*/
 .csec {
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #85152E, #08304ee6);
 	background-attachment: fixed; 
 	position: absolute;
 	width: 100%;
@@ -578,7 +577,7 @@ form textarea {
 }
 #csubmit {
 	margin-top: 20px; 
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #08304E, #85152E);
 	border-radius: 5px;
 	border-style: none;
 	outline: none;
@@ -743,7 +742,7 @@ form textarea {
 }
 .feed #csubmit {
 	margin-top: 25px; 
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #85152E, #08304E);
 	border-radius: 5px;
 	border-style: none;
 	outline: none;
@@ -762,11 +761,16 @@ form textarea {
 	font-size: 20px;
 	padding: 10px;
 }
-
+.marqu img{
+width: 200px; 
+height: 50px; 
+margin-right: 30px; 
+padding-right: 20px;
+}
 /*FOOTER*/
 footer {
 	color: #E5E8EF;
-	background: #000D;
+	background: linear-gradient(to right, #85152E, #08304E);
 	padding: 50px 0; 
 }
 footer .footer-container {
@@ -905,3 +909,27 @@ footer .btn:hover {
 		width: 100%;
 	}
 }
+/* partenir div */
+.title-container {
+    color: #08304E; 
+    font-family: 'Arial', sans-serif; 
+    font-weight: 600; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px; 
+}
+
+  .line {
+
+    height: 3px;
+	width: 300px;
+    background-color: #85152E;
+    margin: 0 10px; 
+  }
+  
+  .title-text {
+    padding: 0 20px; 
+    font-size: 40px; 
+  }
